@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.6.6deb5ubuntu0.5
+- https://www.phpmyadmin.net
+-
+- Host: localhost:3306
+- Generation Time: Aug 02, 2021 at 08:49 AM
+- Server version: 5.7.35-0ubuntu0.18.04.1
+- PHP Version: 5.6.40-52+ubuntu18.04.1+deb.sury.org+1
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="tpoisfc1_jcrm" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="crm_countries">
+                CREATE TABLE `crm_countries` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `sortname` varchar(3) NOT NULL,
+                  `name` varchar(150) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=248 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'tpoisfc1_jcrm'
+    -->
+    <database name="tpoisfc1_jcrm">
+        <!-- Table crm_countries -->
+        <table name="crm_countries">
+            <column name="id">18</column>
+            <column name="sortname">BD</column>
+            <column name="name">Bangladesh</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">38</column>
+            <column name="sortname">CA</column>
+            <column name="name">Canada</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">44</column>
+            <column name="sortname">CN</column>
+            <column name="name">China</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">57</column>
+            <column name="sortname">CZ</column>
+            <column name="name">Czech Republic</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">75</column>
+            <column name="sortname">FR</column>
+            <column name="name">France</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">82</column>
+            <column name="sortname">DE</column>
+            <column name="name">Germany</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">101</column>
+            <column name="sortname">IN</column>
+            <column name="name"> India</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">102</column>
+            <column name="sortname">ID</column>
+            <column name="name">Indonesia</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">106</column>
+            <column name="sortname">IL</column>
+            <column name="name">Israel</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">107</column>
+            <column name="sortname">IT</column>
+            <column name="name">Italy</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">109</column>
+            <column name="sortname">JP</column>
+            <column name="name">Japan</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">115</column>
+            <column name="sortname">KP</column>
+            <column name="name">North Korea</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">116</column>
+            <column name="sortname">KR</column>
+            <column name="name">South Korea</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">117</column>
+            <column name="sortname">KW</column>
+            <column name="name">Kuwait</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">132</column>
+            <column name="sortname">MY</column>
+            <column name="name">Malaysia</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">153</column>
+            <column name="sortname">NP</column>
+            <column name="name">Nepal</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">154</column>
+            <column name="sortname">SAU</column>
+            <column name="name">Saudi Arabia</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">155</column>
+            <column name="sortname">NL</column>
+            <column name="name">Netherlands</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">165</column>
+            <column name="sortname">OM</column>
+            <column name="name">Oman</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">173</column>
+            <column name="sortname">PH</column>
+            <column name="name">Philippines</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">181</column>
+            <column name="sortname">RU</column>
+            <column name="name">Russia</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">182</column>
+            <column name="sortname">RW</column>
+            <column name="name">Rwanda</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">196</column>
+            <column name="sortname">SG</column>
+            <column name="name">Singapore</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">205</column>
+            <column name="sortname">ES</column>
+            <column name="name">Spain</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">206</column>
+            <column name="sortname">LK</column>
+            <column name="name">Sri Lanka</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">214</column>
+            <column name="sortname">TW</column>
+            <column name="name">Taiwan</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">217</column>
+            <column name="sortname">TH</column>
+            <column name="name">Thailand</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">223</column>
+            <column name="sortname">TR</column>
+            <column name="name">Turkey</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">227</column>
+            <column name="sortname">UG</column>
+            <column name="name">Uganda</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">229</column>
+            <column name="sortname">UAE</column>
+            <column name="name">United Arab Emirates</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">230</column>
+            <column name="sortname">GB</column>
+            <column name="name">United Kingdom</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">231</column>
+            <column name="sortname">USA</column>
+            <column name="name">United States of America</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">246</column>
+            <column name="sortname">ZW</column>
+            <column name="name">Zimbabwe</column>
+        </table>
+        <table name="crm_countries">
+            <column name="id">247</column>
+            <column name="sortname">MV</column>
+            <column name="name">Republic of Maldives</column>
+        </table>
+    </database>
+</pma_xml_export>

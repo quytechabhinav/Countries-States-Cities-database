@@ -1,0 +1,10 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 4.6.6deb5ubuntu0.5
+ */
+
+// Database 'tpoisfc1_jcrm'
+
+// tpoisfc1_jcrm.crm_countries
+
+[{"id":"18","sortname":"BD","name":"Bangladesh"}, {"id":"38","sortname":"CA","name":"Canada"}, {"id":"44","sortname":"CN","name":"China"}, {"id":"57","sortname":"CZ","name":"Czech Republic"}, {"id":"75","sortname":"FR","name":"France"}, {"id":"82","sortname":"DE","name":"Germany"}, {"id":"101","sortname":"IN","name":" India"}, {"id":"102","sortname":"ID","name":"Indonesia"}, {"id":"106","sortname":"IL","name":"Israel"}, {"id":"107","sortname":"IT","name":"Italy"}, {"id":"109","sortname":"JP","name":"Japan"}, {"id":"115","sortname":"KP","name":"North Korea"}, {"id":"116","sortname":"KR","name":"South Korea"}, {"id":"117","sortname":"KW","name":"Kuwait"}, {"id":"132","sortname":"MY","name":"Malaysia"}, {"id":"153","sortname":"NP","name":"Nepal"}, {"id":"154","sortname":"SAU","name":"Saudi Arabia"}, {"id":"155","sortname":"NL","name":"Netherlands"}, {"id":"165","sortname":"OM","name":"Oman"}, {"id":"173","sortname":"PH","name":"Philippines"}, {"id":"181","sortname":"RU","name":"Russia"}, {"id":"182","sortname":"RW","name":"Rwanda"}, {"id":"196","sortname":"SG","name":"Singapore"}, {"id":"205","sortname":"ES","name":"Spain"}, {"id":"206","sortname":"LK","name":"Sri Lanka"}, {"id":"214","sortname":"TW","name":"Taiwan"}, {"id":"217","sortname":"TH","name":"Thailand"}, {"id":"223","sortname":"TR","name":"Turkey"}, {"id":"227","sortname":"UG","name":"Uganda"}, {"id":"229","sortname":"UAE","name":"United Arab Emirates"}, {"id":"230","sortname":"GB","name":"United Kingdom"}, {"id":"231","sortname":"USA","name":"United States of America"}, {"id":"246","sortname":"ZW","name":"Zimbabwe"}, {"id":"247","sortname":"MV","name":"Republic of Maldives"}]
